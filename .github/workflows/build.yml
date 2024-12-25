@@ -21,10 +21,10 @@ jobs:
       uses: actions/checkout@v3
       
     # Set up JDK
-    - name: Set up JDK 11
+    - name: Set up JDK 17
       uses: actions/setup-java@v3
       with:
-        java-version: '11'
+        java-version: '17'
         distribution: 'zulu'
    
     # Grant execute permission for gradlew
